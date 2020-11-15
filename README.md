@@ -1,9 +1,12 @@
 <div align="center">
   <h1>You Should Use</h1>
+  <img src="https://github.com/paysonwallach/fish-you-should-use/blob/master/media/screenshot.png" />
+  <br>
+  <br>
   <p>A fish plugin that reminds you to use your aliases.</p>
-  <a href="git+https://github.com/paysonwallach/fish-you-should-use.git/releases/latest">
-    <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-red.svg?cacheSeconds=2592000&style=flat-square" />
-</a>
+  <a href="https://github.com/paysonwallach/fish-you-should-use/releases/latest">
+    <img alt="Version 1.0.1" src="https://img.shields.io/badge/version-1.0.1-red.svg?cacheSeconds=2592000&style=flat-square" />
+  </a>
   <a href="https://github.com/paysonwallach/fish-you-should-use/blob/master/LICENSE" target="\_blank">
     <img alt="Licensed under the GNU General Public License v3.0" src="https://img.shields.io/github/license/paysonwallach/fish-you-should-use?style=flat-square" />
   <a href=https://buymeacoffee.com/paysonwallach>
@@ -20,7 +23,7 @@
 Using [`fisher`](https://github.com/jorgebucaran/fisher):
 
 ```shell
-fisher add paysonwallach/fish-you-should-use
+fisher install paysonwallach/fish-you-should-use
 ```
 
 ## Usage
