@@ -1,0 +1,47 @@
+{
+  "name": "fish-you-should-use",
+  "version": "1.0.0",
+  "description": "A fish plugin that reminds you to use your aliases.",
+  "scripts": {
+    "pre-release": "scrivano",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paysonwallach/fish-you-should-use.git"
+  },
+  "author": "Payson Wallach <payson@paysonwallach.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/paysonwallach/fish-you-should-use/issues"
+  },
+  "homepage": "https://github.com/paysonwallach/fish-you-should-use#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "husky": "^4.3.0",
+    "scrivano": "^0.1.0",
+    "standard-version": "^9.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "standard-version": {
+    "scripts": {
+      "precommit": "npm run pre-release"
+    }
+  },
+  "meta": {
+    "name": "You Should Use",
+    "owner": "paysonwallach",
+    "license": {
+      "name": "GNU General Public License v3.0",
+      "url": "https://github.com/paysonwallach/fish-you-should-use/blob/master/LICENSE"
+    },
+    "todo": {
+      "url": "https://github.com/paysonwallach/fish-you-should-use/blob/master/TODO.md"
+    }
+  }
+}
