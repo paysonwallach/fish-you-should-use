@@ -2,10 +2,10 @@
   <h1>You Should Use</h1>
   <p>A fish plugin that reminds you to use your aliases.</p>
   <a href="git+https://github.com/paysonwallach/fish-you-should-use.git/releases/latest">
-  <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-red.svg?cacheSeconds=2592000&style=flat-square" />
+    <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-red.svg?cacheSeconds=2592000&style=flat-square" />
 </a>
   <a href="https://github.com/paysonwallach/fish-you-should-use/blob/master/LICENSE" target="\_blank">
-  <img alt="Licensed under the GNU General Public License v3.0" src="https://img.shields.io/github/license/paysonwallach/fish-you-should-use?style=flat-square" />
+    <img alt="Licensed under the GNU General Public License v3.0" src="https://img.shields.io/github/license/paysonwallach/fish-you-should-use?style=flat-square" />
   <a href=https://buymeacoffee.com/paysonwallach>
     <img src=https://img.shields.io/badge/donate-Buy%20me%20a%20coffe-yellow?style=flat-square>
   </a>
