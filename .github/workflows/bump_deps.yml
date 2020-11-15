@@ -1,0 +1,25 @@
+name: Bump_Dependencies
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  Bump_Dependencies:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: "14"
+      - run: |
+          npm install
+          npm run bump
+          npm install
+      - uses: peter-evans/create-pull-request@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Update dependencies
+          title: "[AUTO] Update dependencies"
+          labels: Dependencies
+          branch: "Bump"
