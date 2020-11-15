@@ -40,8 +40,14 @@
       "name": "GNU General Public License v3.0",
       "url": "https://github.com/paysonwallach/fish-you-should-use/blob/master/LICENSE"
     },
+    "media": {
+      "url": "https://github.com/paysonwallach/fish-you-should-use/blob/master/media"
+    },
     "todo": {
       "url": "https://github.com/paysonwallach/fish-you-should-use/blob/master/TODO.md"
+    },
+    "releases": {
+      "url": "https://github.com/paysonwallach/fish-you-should-use/releases"
     }
   }
 }
