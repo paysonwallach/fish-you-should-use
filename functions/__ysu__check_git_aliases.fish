@@ -9,7 +9,7 @@ function __ysu__check_git_aliases \
         git config --get-regexp "^alias\..+\$" | sort | while read key value
             set key (string split --max 2 "." "$key")[2]
 
-            string match --quiet "$YSU__IGNORED_GIT_ALIASES" "$key"; and continue
+            string match --quiet "$key" "$YSU__IGNORED_GIT_ALIASES"; and continue
 
             if string match --quiet "git $value" "$argv"
                 __ysu__message "git alias" "$value" "git $key"
