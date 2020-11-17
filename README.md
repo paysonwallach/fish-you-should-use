@@ -5,7 +5,7 @@
   <br>
   <p>A fish plugin that reminds you to use your aliases.</p>
   <a href="https://github.com/paysonwallach/fish-you-should-use/releases/latest">
-    <img alt="Version 1.0.2" src="https://img.shields.io/badge/version-1.0.2-red.svg?cacheSeconds=2592000&style=flat-square" />
+    <img alt="Version 1.1.0" src="https://img.shields.io/badge/version-1.1.0-red.svg?cacheSeconds=2592000&style=flat-square" />
   </a>
   <a href="https://github.com/paysonwallach/fish-you-should-use/blob/master/LICENSE" target="\_blank">
     <img alt="Licensed under the GNU General Public License v3.0" src="https://img.shields.io/github/license/paysonwallach/fish-you-should-use?style=flat-square" />
