@@ -1,6 +1,6 @@
 function __ysu__write_buffer \
         --argument-names contents
-    set --global __BUFFER "$contents"
+    set --global __BUFFER "$contents$__BUFFER\n"
 
     set --local position "before"
     if set -q YSU__MESSAGE_POSITION
