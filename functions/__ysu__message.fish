@@ -3,5 +3,5 @@ function __ysu__message \
     # zero-width space delinates the end of a variable and the beginning of the message
     __ysu__write_buffer "\
 $BOLD$YELLOW​Found existing $alias_type for \"$VIOLET$command$YELLOW\".
-You should use: \"$alias\""
+You should use: \"$alias\"\n"
 end
