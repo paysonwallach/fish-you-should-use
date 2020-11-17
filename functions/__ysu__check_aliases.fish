@@ -15,7 +15,7 @@ function __ysu__check_aliases \
 
         string match --quiet "$YSU__IGNORED_GLOBAL_ALIASES" "$key"; and continue
 
-        if string match --quiet --regex "$value" "$argv"
+        if string match --quiet "$value" "$argv"
             __ysu__message "alias" "$value" "$key"
             set found true
         end
