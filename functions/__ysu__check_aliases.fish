@@ -13,7 +13,7 @@ function __ysu__check_aliases \
         set key "$tokens[2]"
         set value (string replace --regex '(?:[\"|\']([^,]*)[\"|\'])' '$1' "$tokens[3]")
 
-        string match --quiet "$YSU__IGNORED_GLOBAL_ALIASES" "$key"; and continue
+        string match --quiet "$key" "$YSU__IGNORED_GLOBAL_ALIASES"; and continue
 
         if string match --quiet "$value" "$argv"
             __ysu__message "alias" "$value" "$key"
