@@ -32,10 +32,10 @@ Simply install and get back to whatever you were doing before! [You Should Use](
 
 ## Configuration
 
-By default, [You Should Use](git+https://github.com/paysonwallach/fish-you-should-use.git) will display its reminder message after a command has executed. However, you can choose to display the mesasge before execution by setting `YSU_MESSAGE_POSITION` like so:
+By default, [You Should Use](git+https://github.com/paysonwallach/fish-you-should-use.git) will display its reminder message after a command has executed. However, you can choose to display the mesasge before execution by setting `YSU__MESSAGE_POSITION` like so:
 
 ```fish
-set YSU_MESSAGE_POSITION "before"
+set YSU__MESSAGE_POSITION "before"
 ```
 
 ## Contributing
