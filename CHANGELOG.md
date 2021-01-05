@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.2.0 (2021-01-05)
+
+### Features
+
+* list all found aliases ([71ed49f](https://github.com/paysonwallach/fish-you-should-use/commit/71ed49f7246401d7aea28ace4c118a9f89f77564))
+
+### Bug Fixes
+
+* Correct typos in 'TODO' ([dcc918c](https://github.com/paysonwallach/fish-you-should-use/commit/dcc918caa0aa7111bd92ef639b6281ab407ca7a2))
+
+* Match commands with appropriate boundaries ([a7394db](https://github.com/paysonwallach/fish-you-should-use/commit/a7394dbcc9876cecbbbb2a9b61df9d55bbab69ee)), closes [#5](https://github.com/paysonwallach/fish-you-should-use/issues/5)
+
+
 ## 1.1.0 (2020-11-17)
 
 ### Features
