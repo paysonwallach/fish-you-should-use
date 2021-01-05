@@ -12,7 +12,7 @@ function __ysu__check_git_aliases \
 
             set --local escaped_value (string escape --no-quote --style=regex "$value")
 
-            if string match --quiet --regex "git $escaped_value" "$argv"
+            if string match --quiet --regex "git $escaped_value(?=\s|\$)" "$argv"
                 __ysu__message "git alias" "$value" "git $key"
                 set found true
             end
