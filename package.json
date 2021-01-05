@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/paysonwallach/fish-you-should-use/issues"
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "scripts": {
     "format:js": "prettier --write .",
     "format:package.json": "prettier-package-json --write",
