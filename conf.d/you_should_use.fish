@@ -1,4 +1,4 @@
-set --global FISH_YOU_SHOULD_USE_VERSION "1.1.0"
+set --global FISH_YOU_SHOULD_USE_VERSION "1.2.0"
 
 __ysu__set_default NONE (set_color normal)
 __ysu__set_default BOLD (set_color -o normal)
