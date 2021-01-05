@@ -14,7 +14,7 @@ function __ysu__check_aliases \
         set --local value (string replace --regex '(?:[\"|\']([^,]*)[\"|\'])' '$1' "$tokens[3]")
         set --local escaped_value (string escape --no-quote --style=regex "$value")
 
-        if string match --quiet --regex "$escaped_value" "$argv"
+        if string match --quiet --regex "(?<=^|\s)$escaped_value(?=\s|\$)" "$argv"
             __ysu__message "alias" "$value" "$key"
             set found true
         end
