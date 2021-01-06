@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.1.0 (2020-11-17)
+
+### Features
+
+* List all found aliases ([71ed49f](https://github.com/paysonwallach/fish-you-should-use/commit/71ed49f7246401d7aea28ace4c118a9f89f77564))
+
+### Bug Fixes
+
+* Search entire command string for aliases ([6ab7571](https://github.com/paysonwallach/fish-you-should-use/commit/6ab7571f2e4f59f6845d622f1a87a088db2d4c6c))
+
+
 ### 1.0.2 (2020-11-17)
 
 ### Bug Fixes
