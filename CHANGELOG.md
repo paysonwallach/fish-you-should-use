@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.2 (2020-11-17)
+
+### Bug Fixes
+
+* Remove `--regex` flag from match command ([ca910fa](https://github.com/paysonwallach/fish-you-should-use/commit/ca910fad8cd622a853e98560f8962168b7243829)), closes [#1](https://github.com/paysonwallach/fish-you-should-use/issues/1)
+
+* Specify substring to match on before search string ([87fb108](https://github.com/paysonwallach/fish-you-should-use/commit/87fb108a976a74d91526b44edffa5b867f66e43f))
+
+
 ### 1.0.1 (2020-11-15)
 
 ### Bug Fixes
