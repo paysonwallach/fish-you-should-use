@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "fish-you-should-use",
   "description": "A fish plugin that reminds you to use your aliases.",
   "license": "GPL-3.0",
