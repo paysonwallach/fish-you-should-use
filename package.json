@@ -29,7 +29,7 @@
     "prettier": "^2.2.1",
     "prettier-package-json": "^2.1.3",
     "scrivano": "^0.1.0",
-    "standard-version": "^9.1.1"
+    "standard-version": "^9.2.0"
   },
   "husky": {
     "hooks": {
