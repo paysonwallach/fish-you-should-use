@@ -22,8 +22,8 @@
     "release": "standard-version"
   },
   "devDependencies": {
-    "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^13.1.0",
+    "@commitlint/cli": "^13.2.0",
+    "@commitlint/config-conventional": "^13.2.0",
     "husky": "^7.0.2",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.4.1",
